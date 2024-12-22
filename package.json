@@ -1,21 +1,21 @@
 {
-  "name": "sloth-css",
+  "name": "moss-kit",
   "version": "1.0.0",
   "description": "The smallest amount of CSS to make a great looking site",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattjared/sloth-css"
+    "url": "https://github.com/mattjared/moss-kit"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sloth-css",
+    "most-kit",
     "css",
     "minimal",
     "css",
-    "css",
+    "html",
     "reset"
   ],
   "author": "Matt Jared",
