@@ -1,5 +1,5 @@
 {
-  "name": "bare-metal-css",
+  "name": "sloth-css",
   "version": "1.0.0",
   "description": "The smallest amount of CSS to make a great looking site",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "bare-metal-css",
+    "sloth-css",
     "css",
     "minimal",
     "css",
