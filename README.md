@@ -53,9 +53,17 @@ Grids, columns and row. Where do you even start? I wanted to make it so you coul
 
 ## AI Sidekicks
 
-### I'm using Cursor for most of this as my editor but I'm going to handroll all the code for the packge. I'm leaning on Cursor here and there but it's missing the mark on design and breaking the rules where I want to. 
+I'm using Cursor for most of this as my editor but I'm going to handroll all the code for the packge. I'm leaning on Cursor here and there but it's missing the mark on design and breaking the rules where I want to. 
 
-### I'm also using CLaude 
+I'm also using Claude to help with naming and giving me an entire list of HTML elements to mess with. 
+
+I copied the simple.css list of HTML elements and fed that to Claude. 
+
+The sloth.css logo was made by Dall-E 3. 
+
+I am a human right now writing this. Maybe this gets good and is useful enough to be used in AI projects to build good looking sites w/o CSS or utilities classes, maybe it doesn't. 
+
+You probably want to use [v0](https://v0.dev/) to build your site with Tailwind and ShadCN but maybe Sloth is an option for you if you want to cut the CSS completely. Idk. Have fun and lets build somethign and learn together. 
 
 ## License
 
