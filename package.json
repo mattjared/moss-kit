@@ -1,0 +1,19 @@
+{
+  "name": "bare-metal-css",
+  "version": "1.0.0",
+  "description": "The smallest amount of CSS to make a great looking site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bare-metal-css",
+    "css",
+    "minimal",
+    "css",
+    "css",
+    "reset"
+  ],
+  "author": "Matt Jared",
+  "license": "MIT"
+}
