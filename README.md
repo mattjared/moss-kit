@@ -57,11 +57,11 @@ I'm using Cursor for most of this as my editor but I'm going to handroll all the
 
 I'm also using Claude to help with naming and giving me an entire list of HTML elements to mess with. 
 
-I copied the simple.css list of HTML elements and fed that to Claude. 
+I copied the [simple.css list of HTML elements](https://github.com/kevquirk/simple.css/blob/main/index.html) and fed that to Claude to get the most basic list of HTML elements to work with and give me a lot of content examples. 
 
-The moss.css logo was made by Dall-E 3. 
+The moss-kit logo was made by Dall-E 3.
 
-I am a human right now writing this. Maybe this gets good and is useful enough to be used in AI projects to build good looking sites w/o CSS or utilities classes, maybe it doesn't. 
+I am a human right now writing this. Maybe this gets good and is useful enough to be used in AI projects to build good looking sites w/o CSS or utilities classes, maybe it doesn't.
 
 You probably want to use [v0](https://v0.dev/) to build your site with Tailwind and ShadCN but maybe Moss is an option for you if you want to cut the CSS completely. Idk. Have fun and lets build somethign and learn together. 
 

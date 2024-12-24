@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #4CAF50;
+  --background-color: #E0E0E0;
+  --spacer: 8px;
+  --max-width: 980px;
+  --font-stack: system-ui;
+  --radius: .5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-stack);
+  font-size: 1rem;
+  /* line-height: 1.5rem; */
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+ul {
+  margin-left: 20px;
+}
+header {
+  padding: 12px;
+  border-radius: var(--radius);
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: #eee;
+  max-width: var(--max-width);
+  margin: 40px auto;
+  border: 1px solid #ddd;
+}
+header > div {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+nav {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 2rem;
+  justify-content: end;
+}
+nav a {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}

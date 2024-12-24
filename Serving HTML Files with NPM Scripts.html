@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive HTML elements demo">
+    <base href="/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <title>HTML Elements Demo</title>
+    <style>
+        body { padding: 20px; }
+        section { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Complete HTML Elements Demo</h1>
+        <nav>
+            <ul>
+                <li><a href="#text">Text Elements</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#forms">Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Article About Nature</h2>
+            <section id="text">
+                <h3>Text Content Elements</h3>
+                <p>The ancient redwood forest stands as a testament to nature's endurance, reaching skyward with silent majesty.</p>
+                <hr>
+                <pre>
+    Leaves dance in wind
+    Nature's ballet unfolds
+    Autumn whispers soft
+                </pre>
+                <blockquote>
+                    <p>The mountains whisper tales of geological epochs, while rivers carve their stories into ancient stone.</p>
+                </blockquote>
+                
+                <h4>Lists</h4>
+                <ol>
+                    <li>Towering sequoias reach for clouds</li>
+                    <li>Crystalline streams meander through valleys</li>
+                    <li>Wild flowers carpet alpine meadows</li>
+                </ol>
+
+                <ul>
+                    <li>Misty mountain peaks</li>
+                    <li>Dense evergreen forests</li>
+                    <li>Pristine wilderness lakes</li>
+                </ul>
+
+                <dl>
+                    <dt>Biodiversity</dt>
+                    <dd>The rich tapestry of life in natural ecosystems</dd>
+                    <dt>Ecosystem</dt>
+                    <dd>A community of living organisms in conjunction with nonliving components</dd>
+                </dl>
+
+                <figure>
+                    <img src="/api/placeholder/400/300" alt="Nature scene">
+                    <figcaption>A pristine wilderness landscape</figcaption>
+                </figure>
+
+                <div class="nature-quote">
+                    <p>In every walk with nature one receives far more than they seek.</p>
+                </div>
+            </section>
+
+            <section id="inline">
+                <h3>Inline Text Elements</h3>
+                <p>
+                    The <em>rushing river</em> flows with <strong>powerful currents</strong>. 
+                    <small>Note: Seasonal variations may occur</small>
+                    <s>Drought conditions present</s>
+                    As <cite>National Geographic</cite> reports: 
+                    <q>Wilderness areas are vital for Earth's biodiversity</q>
+                    The term <dfn>ecosystem</dfn> refers to a biological community.
+                    Scientific name: <abbr title="Sequoia sempervirens">S. sempervirens</abbr>
+                    <code>forest.preserve(biodiversity)</code>
+                    Temperature: <var>23°C</var>
+                    System response: <samp>Ecosystem stable</samp>
+                    Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save
+                    H<sub>2</sub>O is essential
+                    10km<sup>2</sup> of forest
+                    <i>Pinus ponderosa</i>
+                    <b>Warning: Protected Species</b>
+                    <u>Rare orchid species</u>
+                    <mark>Critical habitat area</mark>
+                    <ruby>森<rt>もり</rt></ruby>
+                    <bdi>تنوع زیستی</bdi>
+                    <bdo dir="rtl">Nature's beauty</bdo>
+                    <span class="highlight">Pristine wilderness</span>
+                    Mountain peaks<br>
+                    Valley floors<wbr>
+                </p>
+            </section>
+
+            <section id="multimedia">
+                <h3>Multimedia Elements</h3>
+                <picture>
+                    <source srcset="/api/placeholder/800/600" media="(min-width: 800px)">
+                    <img src="/api/placeholder/400/300" alt="Responsive nature image">
+                </picture>
+
+                <video controls width="400">
+                    <source src="#" type="video/mp4">
+                    <track kind="captions" src="#" label="English">
+                    Your browser doesn't support video.
+                </video>
+
+                <audio controls>
+                    <source src="#" type="audio/mpeg">
+                    Your browser doesn't support audio.
+                </audio>
+
+                <map name="nature-map">
+                    <area shape="rect" coords="0,0,100,100" href="#" alt="Forest region">
+                </map>
+
+                <iframe src="about:blank" width="400" height="300"></iframe>
+                <embed type="image/svg+xml" src="about:blank" width="300" height="200">
+                <object data="about:blank" width="300" height="200">
+                    <param name="autoplay" value="false">
+                </object>
+            </section>
+
+            <section id="tables">
+                <h3>Table Elements</h3>
+                <table>
+                    <caption>Mountain Ecosystems</caption>
+                    <colgroup>
+                        <col style="background-color: #f0f0f0">
+                        <col>
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Elevation</th>
+                            <th>Ecosystem Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alpine</td>
+                            <td>Tundra</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Data from Environmental Survey</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section id="forms">
+                <h3>Form Elements</h3>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Nature Survey</legend>
+                        <label for="name">Observer Name:</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" list="locations">
+                        <datalist id="locations">
+                            <option value="Forest">
+                            <option value="Mountain">
+                            <option value="Valley">
+                        </datalist>
+
+                        <label for="habitat">Habitat Type:</label>
+                        <select id="habitat">
+                            <optgroup label="Terrestrial">
+                                <option>Forest</option>
+                                <option>Grassland</option>
+                            </optgroup>
+                        </select>
+
+                        <label for="notes">Observations:</label>
+                        <textarea id="notes" rows="4"></textarea>
+
+                        <output for="calculation">Biodiversity Index: 7.5</output>
+
+                        <label for="progress">Survey Progress:</label>
+                        <progress id="progress" value="70" max="100"></progress>
+
+                        <label for="conservation">Conservation Status:</label>
+                        <meter id="conservation" value="8" min="0" max="10" optimum="10"></meter>
+
+                        <button type="submit">Submit Observations</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section id="interactive">
+                <h3>Interactive Elements</h3>
+                <details>
+                    <summary>Ecosystem Details</summary>
+                    <p>The forest ecosystem contains thousands of interconnected species...</p>
+                </details>
+
+                <dialog>
+                    <p>Conservation Alert: Protected Species Present</p>
+                    <button>Acknowledge</button>
+                </dialog>
+            </section>
+
+            <template id="species-template">
+                <div class="species-card">
+                    <h4>Species Name</h4>
+                    <p>Conservation Status</p>
+                    <slot name="species-image"></slot>
+                </div>
+            </template>
+        </article>
+    </main>
+
+    <aside>
+        <h3>Related Information</h3>
+        <p>Discover more about local ecosystems and conservation efforts.</p>
+    </aside>
+
+    <footer>
+        <p>© 2024 HTML Elements Demo - Educational Purposes</p>
+    </footer>
+</body>
+</html>

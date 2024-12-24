@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moss Kit</title>
+    <link rel="stylesheet" href="moss-kit.css">
+</head>
+<body>
+  <header>
+    <div>Moss Kit</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#installation">Installation</a>
+      <a href="#customize">Customize</a>
+      <a href="https://github.com/mattjared/moss-kit">Star on Github</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to Moss Kit</h1>
+    <p>Don't use any CSS, just write HTML. The styles are just there.</p>
+    <p>The idea here is that you write only HTML. Leaning on CSS grid and the absolute simplest design possible we can build a lot of really powerful stuff without thinking much.</p>
+    <p>There are better alternatives and ways of building most notably usin v0 to do this all for you. But this is a chance to try something new.</p>
+    <p>Challenge...is it possible to build a micro saas without CSS classes?</p>
+    <h2 id="about">About</h2>
+    <p>The smallest amount of CSS to make a great looking site that removes CSS completely. Inspired by the million other CSS frameworks that do the exact same thing. I wanted to make something that was so simple that it would be easy to understand and easy to use. I expect to break some rules alonge the way in order to make a very good looking and explicit looking site, without CSS that would make sites extremely fast. The idea is to also experiment with this in Next.js sites to see if we can cut Core Web Vitals even further if you use this over other frameworks. To dev on this follow the instructions below. I really wanted to also have a published NPM package and learn how to make that work so here we are. Moss was born. Hope you enjoy, contribute with questions and ideas or code and have fun with it.</p>
+    <h2 id="installation">Installation</h2>
+    <section id="type">
+      <h2>Type System</h2>
+      <hr />
+      <h1>h1 Examples</h1>
+      <h2>h2 Examples</h2>
+      <h3>h3 Examples</h3>
+      <h4>h4 Examples</h4>
+      <h5>h5 Examples</h5>
+      <h6>h6 Examples</h6>
+        <!-- Basic Text -->
+        <article>
+            <h3>Basic Text Elements</h3>
+            <p>Regular paragraph</p>
+            <p><b>Bold text</b></p>
+            <p><strong>Strong text</strong></p>
+            <p><i>Italic text</i></p>
+            <p><em>Emphasized text</em></p>
+            <p><mark>Marked text</mark></p>
+            <p><small>Small text</small></p>
+            <p><del>Deleted text</del></p>
+            <p><ins>Inserted text</ins></p>
+            <p><sub>Subscript</sub> and <sup>Superscript</sup></p>
+            <p><u>Underlined text</u></p>
+            <p><s>Strikethrough text</s></p>
+            <pre>Preformatted
+  text with
+    preserved
+      formatting</pre>
+            <code>Code element</code>
+            <br>
+            <hr>
+        </article>
+
+        <!-- Typography -->
+        <article>
+            <h3>Typography Elements</h3>
+            <address>Address element</address>
+            <blockquote>
+                Blockquote element
+                <cite>Citation element</cite>
+            </blockquote>
+            <q>Inline quote element</q>
+            <abbr title="Abbreviation">Abbr</abbr>
+            <dfn>Definition element</dfn>
+            <kbd>Keyboard input</kbd>
+            <samp>Sample output</samp>
+            <var>Variable</var>
+            <time datetime="2024-12-22">Time element</time>
+            <bdi>Bi-directional text isolation</bdi>
+            <bdo dir="rtl">Bi-directional override</bdo>
+            <ruby>
+                漢 <rp>(</rp><rt>han</rt><rp>)</rp>
+            </ruby>
+            <data value="123">Data element</data>
+            <wbr>Word<wbr>break<wbr>opportunity
+        </article>
+    </section>
+    <section id="grid">
+        <h2>Semantic Elements</h2>
+        <article>
+            <header>Article header</header>
+            <main>Main content</main>
+            <aside>Aside content</aside>
+            <footer>Article footer</footer>
+        </article>
+        <details>
+            <summary>Details summary</summary>
+            Details content
+        </details>
+        <figure>
+            <figcaption>Figure caption</figcaption>
+            Figure content
+        </figure>
+    </section>
+    <section id="forms">
+      <h2>Form Elements</h2>
+        <form>
+            <!-- Text Inputs -->
+            <fieldset>
+                <legend>Text Inputs</legend>
+                <label for="text">Text:</label>
+                <input type="text" id="text" name="text">
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="tel">Telephone:</label>
+                <input type="tel" id="tel" name="tel">
+                
+                <label for="search">Search:</label>
+                <input type="search" id="search" name="search">
+                
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url">
+            </fieldset>
+
+            <!-- Number Inputs -->
+            <fieldset>
+                <legend>Number Inputs</legend>
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number">
+                
+                <label for="range">Range:</label>
+                <input type="range" id="range" name="range">
+                
+                <meter value="0.5">Meter</meter>
+                <progress value="70" max="100">Progress</progress>
+            </fieldset>
+
+            <!-- Date/Time Inputs -->
+            <fieldset>
+                <legend>Date/Time Inputs</legend>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time">
+                
+                <label for="datetime-local">DateTime-local:</label>
+                <input type="datetime-local" id="datetime-local" name="datetime-local">
+                
+                <label for="month">Month:</label>
+                <input type="month" id="month" name="month">
+                
+                <label for="week">Week:</label>
+                <input type="week" id="week" name="week">
+            </fieldset>
+
+            <!-- Selection Inputs -->
+            <fieldset>
+                <legend>Selection Inputs</legend>
+                <label for="color">Color:</label>
+                <input type="color" id="color" name="color">
+                
+                <label for="file">File:</label>
+                <input type="file" id="file" name="file">
+                
+                <select id="select" name="select">
+                    <optgroup label="Group 1">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                    </optgroup>
+                </select>
+
+                <label>
+                    <input type="checkbox" name="checkbox"> Checkbox
+                </label>
+
+                <label>
+                    <input type="radio" name="radio"> Radio
+                </label>
+
+                <textarea name="textarea" rows="3"></textarea>
+
+                <datalist id="datalist">
+                    <option value="Option 1">
+                    <option value="Option 2">
+                </datalist>
+                <input list="datalist">
+
+                <output name="result">Output</output>
+            </fieldset>
+
+            <!-- Buttons -->
+            <fieldset>
+                <legend>Buttons</legend>
+                <button type="submit">Submit Button</button>
+                <button type="reset">Reset Button</button>
+                <button type="button">Regular Button</button>
+                <input type="submit" value="Submit Input">
+                <input type="reset" value="Reset Input">
+                <input type="button" value="Button Input">
+            </fieldset>
+        </form>
+    </section>
+    <section id="embedded">
+        <h2>Embedded Content</h2>
+        
+        <!-- Images -->
+        <article>
+            <h3>Images</h3>
+            <img src="placeholder.jpg" alt="Placeholder image">
+            <picture>
+                <source srcset="large.jpg" media="(min-width: 800px)">
+                <img src="small.jpg" alt="Responsive image">
+            </picture>
+            <map name="image-map">
+                <area shape="rect" coords="0,0,100,100" href="#" alt="Clickable area">
+            </map>
+        </article>
+
+        <!-- Multimedia -->
+        <article>
+            <h3>Multimedia</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Audio not supported
+            </audio>
+            
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Video not supported
+            </video>
+            
+            <canvas>Canvas not supported</canvas>
+            
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg>
+        </article>
+
+        <!-- Embedded Content -->
+        <article>
+            <h3>Embedded Content</h3>
+            <iframe src="about:blank" title="Iframe example"></iframe>
+            <embed type="text/html" src="about:blank">
+            <object data="about:blank" type="text/html"></object>
+        </article>
+
+        <!-- Template and Portal -->
+        <article>
+            <h3>Templates and Portals</h3>
+            <template>
+                <h2>Template Content</h2>
+                <p>This content is not rendered until cloned via JavaScript.</p>
+            </template>
+        </article>
+    </section>
+    <section id="interactive">
+        <h2>Interactive Elements</h2>
+        <dialog>
+            <h3>Dialog Content</h3>
+            <p>This is a modal dialog box</p>
+            <form method="dialog">
+                <button>Close</button>
+            </form>
+        </dialog>
+        <menu>
+            <li><button type="button">Menu Item 1</button></li>
+            <li><button type="button">Menu Item 2</button></li>
+        </menu>
+    </section>
+    <section id="table">
+        <h2>Table Elements</h2>
+        <table>
+            <caption>Table Caption</caption>
+            <colgroup>
+                <col span="2">
+                <col style="background-color: yellow">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                    <td>Footer 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+  </main>
+  <footer>
+      <p>Page footer content</p>
+  </footer>
+</body>
+</html>
