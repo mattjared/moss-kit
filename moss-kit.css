@@ -48,11 +48,16 @@ nav {
   grid-auto-columns: max-content;
   gap: 2rem;
   justify-content: end;
+  align-items: center;
 }
 nav a {
-  color: #333;
+  color: #555;
   font-size: 1rem;
   text-decoration: none;
+  transition: color .25s ease-in-out;
+}
+nav a:hover { 
+  color: var(--primary-color);
 }
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
